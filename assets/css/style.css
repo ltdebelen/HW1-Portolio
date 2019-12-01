@@ -91,6 +91,76 @@ header nav ul li a:hover {
     margin-bottom: 10px
 }
 
+/* Portfolio */
+#portfolio .container {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+#portfolio h2 {
+    color: #4aaaa5;
+    font-weight: bold;
+    padding: 20px 0;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+#portfolio .boxes {
+    margin: 20px 0;
+    overflow: auto;
+}
+
+#portfolio .boxes p {
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 85%;
+    padding: 15px;
+    font-size: 16px;
+    position: absolute;
+    top: 70%;
+}
+
+#portfolio .boxes a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#portfolio .boxes #box1 {
+    background: url('https://via.placeholder.com/200');
+    position: relative;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 40px;
+}
+
+#portfolio .boxes #box2 {
+    background: url('https://via.placeholder.com/200');
+    position: relative;
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+#portfolio .boxes #box3 {
+    background: url('https://via.placeholder.com/200');
+    position: relative;
+    height: 200px;
+    width: 200px;
+    float: left;
+    clear: left;
+    margin-top: 20px;
+}
+
+#portfolio .boxes #box4 {
+    background: url('https://via.placeholder.com/200');
+    position: relative;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
 /* Contact */
 
 #contact {
